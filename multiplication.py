@@ -1,10 +1,10 @@
-a=10
-b=20
-print(a*b)
+def add(a, b):
+    """Add two numbers and return the result."""
+    return a + b
 
 
-num=int(input("enter the number"))
-a,b=0,1
-for i  in range(num):
-    print(a,end=" ")
-    a,b=b,b+a    
+if __name__ == "__main__":
+    num1 = 10
+    num2 = 20
+    result = add(num1, num2)
+    print(f"The sum of {num1} and {num2} is {result}")
