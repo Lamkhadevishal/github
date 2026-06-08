@@ -1,3 +1,3 @@
-a=10
-b=20
-print(a-b)
+def subtract(a, b):
+    """Return the difference between a and b."""
+    return a - b
