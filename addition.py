@@ -1,3 +1,4 @@
-def add(a,b):
-    return a+b
-add(2,5)
+import random
+
+num=random.randint(1,10)
+print(num+1)
