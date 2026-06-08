@@ -1,4 +1,3 @@
-a=5
-b=5
-c=15
-print(a+b+c)
+def add(a,b):
+    return a+b
+add(2,5)
