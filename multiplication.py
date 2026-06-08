@@ -8,3 +8,8 @@ if __name__ == "__main__":
     num2 = 20
     result = add(num1, num2)
     print(f"The sum of {num1} and {num2} is {result}")
+
+
+
+    for i in range(1,10):
+        print(f"{num1} + {i} = {add(num1, i)}")
