@@ -1,4 +1,6 @@
-import random
+def add(a,b):
+    return a+b
+add(2,5)
 
-num=random.randint(1,10)
-print(num+1)
+if __name__ == "__main__":
+    print(add(2,3))
