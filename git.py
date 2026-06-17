@@ -1,3 +1,2 @@
-print("Hello i am learning git ")
-print("learning git hub is easy")
+print("hello lamkhade")
 print("welcome to git hub")
